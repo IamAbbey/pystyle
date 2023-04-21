@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "pystyle"
+version = "0.1.0"
+description = ""
+authors = ["Sotunde Abiodun"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+fixit = "^0.1.4"
+flake8 = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ["py311"]

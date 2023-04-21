@@ -1,0 +1,11 @@
+allow_list_rules: []
+block_list_patterns:
+- '@generated'
+- '@nolint'
+block_list_rules: []
+fixture_dir: ./fixtures
+formatter: ['cat', '-']
+packages: ['fixit.rules', 'lint.rules']
+repo_root: .
+rule_config: {}
+use_noqa: false
